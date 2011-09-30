@@ -1,0 +1,9 @@
+; -------------
+name = Kendra Saracen Trial
+description = Kendra Saracen Trial Hub
+; -------------
+core = 7.x
+; -------------
+dependencies[] = kendra_social
+; -------------
+files = kendra_saracen_trial.profile
