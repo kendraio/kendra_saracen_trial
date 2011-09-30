@@ -1,5 +1,22 @@
-api = 2
+; -------------
+; Kendra Social
+; drush makefile
+; www.kendra.org
+; -------------
+; Core version
+; -------------
+
 core = 7.x
+
+; -------------
+; API version
+; -------------
+
+api = 2
+
+; -------------
+; Core project
+; -------------
 
 projects[drupal][type] = core
 
