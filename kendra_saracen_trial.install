@@ -2,9 +2,8 @@
 
 /**
  * implements hook_install()
- */
 function kendra_saracen_trial_install() {
   include_once DRUPAL_ROOT . '/profiles/standard/standard.install';
   standard_install();
 }
-
+ */
