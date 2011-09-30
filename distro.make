@@ -1,5 +1,5 @@
 ; -------------
-; Kendra Social
+; Kendra Saracen Trial
 ; drush makefile
 ; www.kendra.org
 ; -------------
