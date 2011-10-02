@@ -24,3 +24,15 @@ projects[drupal][type] = core
 projects[kendra_social][type] = profile
 projects[kendra_social][download][type] = git
 projects[kendra_social][download][url] = git://github.com/kendrainitiative/kendra_social.git
+
+; -------------
+; Variables
+; -------------
+variables[site_footer] = <strong>trial.saracen.kendra.org</strong>
+
+; -------------
+; Nodes
+; -------------
+nodes[front][type] = page
+nodes[front][title] = Welcome
+nodes[front][body] = <p>Welcome to <strong>trial.saracen.kendra.org</strong></p>
