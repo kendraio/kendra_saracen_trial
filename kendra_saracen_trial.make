@@ -29,7 +29,7 @@ projects[kendra_social][download][url] = git://github.com/kendrainitiative/kendr
 ; Modules
 ; -------------
 
-projects[admin][version] = 2.0-beta3
+;projects[admin][version] = 2.0-beta3
 projects[admin_menu][version] = 3.0-rc1
 projects[ctools][version] = 1.0-rc1
 projects[devel][version] = 1.2

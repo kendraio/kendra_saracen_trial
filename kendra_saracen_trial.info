@@ -4,13 +4,32 @@ description = Kendra Saracen Trial Hub
 ; -------------
 core = 7.x
 ; -------------
-dependencies[] = admin
+;dependencies[] = admin
 dependencies[] = block
 dependencies[] = comment
+dependencies[] = ctools
+dependencies[] = dashboard
+dependencies[] = features
+dependencies[] = feeds
+dependencies[] = feeds_import
+dependencies[] = feeds_jsonpath_parser
+dependencies[] = feeds_ui
+dependencies[] = fivestar
+dependencies[] = help
 dependencies[] = image
+dependencies[] = libraries
 dependencies[] = locale
 dependencies[] = menu
+dependencies[] = oauth_common
+dependencies[] = oauth_common_providerui
+dependencies[] = openid
+dependencies[] = openidadmin
+dependencies[] = path
+dependencies[] = rdf
+dependencies[] = services
+dependencies[] = strongarm
 dependencies[] = taxonomy
 dependencies[] = views
+dependencies[] = views_ui
 ; -------------
 files = kendra_saracen_trial.profile
