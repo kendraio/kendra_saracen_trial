@@ -63,3 +63,18 @@ variables[site_footer] = <strong>trial.saracen.kendra.org</strong>
 nodes[front][type] = page
 nodes[front][title] = Welcome
 nodes[front][body] = <p>Welcome to <strong>trial.saracen.kendra.org</strong></p>
+
+; -------------
+; Libraries
+; -------------
+
+libraries[html5bp][download][type] = "file"
+libraries[html5bp][download][url] = "http://github.com/paulirish/html5-boilerplate/zipball/v1.0stripped"
+libraries[jquery][download][type] = "file"
+libraries[jquery][download][url] = "https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"
+libraries[jqueryui][download][type] = "file"
+libraries[jqueryui][download][url] = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.12/jquery-ui.min.js"
+libraries[jsonpath][download][url] = http://jsonpath.googlecode.com/files/jsonpath-0.8.1.php
+libraries[jsonpath][download][type] = file
+libraries[jsonpath][directory_name] = jsonpath
+libraries[jsonpath][destination] = modules/feeds_jsonpath_parser
