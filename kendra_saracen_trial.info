@@ -2,7 +2,10 @@
 name = Kendra Saracen Trial
 description = Kendra Saracen Trial Hub
 ; -------------
+
 core = 7.x
+base = kendra_social
+
 ; -------------
 ;dependencies[] = admin
 dependencies[] = block
