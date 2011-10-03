@@ -4,6 +4,6 @@
  * implements hook_install()
  */
 function kendra_saracen_trial_install() {
-  include_once DRUPAL_ROOT . '/profiles/standard/standard.install';
-  standard_install();
+  include_once DRUPAL_ROOT . '/profiles/kendra_social/kendra_social.install';
+  kendra_social_install();
 }
