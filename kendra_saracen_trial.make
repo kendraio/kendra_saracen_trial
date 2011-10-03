@@ -29,18 +29,8 @@ projects[kendra_social][download][url] = git://github.com/kendrainitiative/kendr
 ; Modules
 ; -------------
 
-projects[] = admin
-projects[] = block
-projects[] = comment
-projects[] = ctools
-projects[] = features
-projects[] = image
-projects[] = libraries
-projects[] = locale
-projects[] = menu
-projects[] = strongarm
-projects[] = taxonomy
-projects[] = views
+projects[admin][version] = 2.0-beta3
+projects[views][version] = 3.0-rc1
 
 ; -------------
 ; Variables
