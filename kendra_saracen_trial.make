@@ -70,6 +70,7 @@ nodes[front][body] = <p>Welcome to <strong>trial.saracen.kendra.org</strong></p>
 
 libraries[profiler][download][type] = "get"
 libraries[profiler][download][url] = "http://ftp.drupal.org/files/projects/profiler-7.x-2.0-beta1.tar.gz"
+libraries[profiler][patch] = "http://drupal.org/files/issues/profiler.906106-11.patch"
 
 libraries[html5bp][download][type] = "file"
 libraries[html5bp][download][url] = "http://github.com/paulirish/html5-boilerplate/zipball/v1.0stripped"
