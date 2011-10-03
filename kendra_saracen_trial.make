@@ -26,6 +26,23 @@ projects[kendra_social][download][type] = git
 projects[kendra_social][download][url] = git://github.com/kendrainitiative/kendra_social.git
 
 ; -------------
+; Modules
+; -------------
+
+projects[] = admin
+projects[] = block
+projects[] = comment
+projects[] = ctools
+projects[] = features
+projects[] = image
+projects[] = libraries
+projects[] = locale
+projects[] = menu
+projects[] = strongarm
+projects[] = taxonomy
+projects[] = views
+
+; -------------
 ; Variables
 ; -------------
 variables[site_footer] = <strong>trial.saracen.kendra.org</strong>
