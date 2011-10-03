@@ -1,5 +1,4 @@
 <?php
-/*
 function kendra_saracen_trial_install_tasks($install_state) {
   $tasks = array();
   $tasks['configure_kendra_saracen_trial'] = array(
@@ -14,4 +13,3 @@ function kendra_saracen_trial_install_tasks($install_state) {
 function kendra_saracen_trial_install_task_configure() {
   return NULL;
 }
-*/
