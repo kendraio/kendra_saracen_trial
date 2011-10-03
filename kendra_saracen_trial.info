@@ -4,13 +4,4 @@ description = Kendra Saracen Trial Hub
 ; -------------
 core = 7.x
 ; -------------
-dependencies[] = admin
-dependencies[] = block
-dependencies[] = comment
-dependencies[] = image
-dependencies[] = locale
-dependencies[] = menu
-dependencies[] = taxonomy
-dependencies[] = views
-; -------------
 files = kendra_saracen_trial.profile
