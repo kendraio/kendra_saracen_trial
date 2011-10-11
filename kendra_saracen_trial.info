@@ -32,7 +32,6 @@ dependencies[] = image
 dependencies[] = job_scheduler
 dependencies[] = jquery_plugin
 dependencies[] = jquery_update
-dependencies[] = kendra_social
 dependencies[] = kendra_social_profile
 dependencies[] = kendra_social_services
 dependencies[] = libraries
