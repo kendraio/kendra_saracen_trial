@@ -3,27 +3,28 @@
 ; drush makefile
 ; www.kendra.org
 ; -------------
-; Core version
-; -------------
-
-core = 7.x
 
 ; -------------
-; API version
+; Core 
 ; -------------
 
 api = 2
-
-; -------------
-; Core project
-; -------------
-
+core = 7.x
 projects[drupal][type] = core
+
+; -------------
+; Profile
+; -------------
 
 ; Add kendra_social to the full Drupal distro build
 ;projects[kendra_social][type] = profile
 ;projects[kendra_social][download][type] = git
 ;projects[kendra_social][download][url] = git://github.com/kendrainitiative/kendra_social.git
+
+; Add kendra_saracen_trial to the full Drupal distro build
+projects[kendra_saracen_trial][type] = profile
+projects[kendra_saracen_trial][download][type] = git
+projects[kendra_saracen_trial][download][url] = git://github.com/kendrainitiative/kendra_saracen_trial.git
 
 ; -------------
 ; Includes
