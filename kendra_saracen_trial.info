@@ -4,7 +4,6 @@ description = Kendra Saracen Trial Hub
 ; -------------
 
 core = 7.x
-base = kendra_social
 
 ; -------------
 
