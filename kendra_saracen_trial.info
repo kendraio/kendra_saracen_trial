@@ -2,10 +2,60 @@
 name = Kendra Saracen Trial
 description = Kendra Saracen Trial Hub
 ; -------------
-
 core = 7.x
-
-; -------------
-
 ; -------------
 files = kendra_saracen_trial.profile
+; -------------
+dependencies[] = admin_menu
+dependencies[] = block
+dependencies[] = comment
+dependencies[] = ctools
+dependencies[] = dblog
+dependencies[] = devel
+dependencies[] = entity
+dependencies[] = fb
+dependencies[] = fb_app
+dependencies[] = fb_connect
+dependencies[] = fb_canvas
+dependencies[] = fb_devel
+dependencies[] = fb_permission
+dependencies[] = fb_user
+dependencies[] = fb_user_app
+dependencies[] = features
+dependencies[] = feeds
+dependencies[] = feeds_import
+dependencies[] = feeds_jsonpath_parser
+dependencies[] = feeds_ui
+dependencies[] = field_ui
+dependencies[] = help
+dependencies[] = image
+dependencies[] = job_scheduler
+dependencies[] = jquery_plugin
+dependencies[] = jquery_update
+dependencies[] = kendra_social_profile
+dependencies[] = kendra_social_services
+dependencies[] = libraries
+dependencies[] = locale
+dependencies[] = menu
+dependencies[] = messaging
+;dependencies[] = notifications
+dependencies[] = number
+dependencies[] = oauth_common
+dependencies[] = oauth_common_providerui
+dependencies[] = openid
+dependencies[] = openidadmin
+dependencies[] = path
+dependencies[] = pathauto
+dependencies[] = profile2
+dependencies[] = rdf
+dependencies[] = rest_server
+dependencies[] = rules
+dependencies[] = services
+dependencies[] = services_oauth
+dependencies[] = services_test_resource
+dependencies[] = strongarm
+dependencies[] = taxonomy
+dependencies[] = token
+dependencies[] = views
+dependencies[] = views_ui
+dependencies[] = xmlrpc_server
