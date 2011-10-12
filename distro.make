@@ -28,6 +28,7 @@ projects[kendra_social][type] = module
 projects[kendra_social][download][type] = git
 projects[kendra_social][download][url] = git://github.com/kendrainitiative/kendra_social.git
 projects[kendra_social][download][branch] = features-extraction
+projects[kendra_social][subdir] = features
 
 ; -------------
 ; Profile
