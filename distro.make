@@ -27,6 +27,12 @@ projects[drupal][type] = core
 ; Kendra Social distro makefile
 includes[kendra_social] = https://raw.github.com/kendrainitiative/kendra_social/master/distro.make
 
+projects[kendra_social_features][type] = module
+projects[kendra_social_features][download][type] = git
+projects[kendra_social_features][download][url] = git://repo/opt/repos/git/kendra/kendra_social.git
+projects[kendra_social_features][download][branch] = features-extraction
+projects[kendra_social_features][subdir] = features
+
 projects[kendra_saracen_trial][type] = profile
 projects[kendra_saracen_trial][download][type] = git
 projects[kendra_saracen_trial][download][url] = git://github.com/kendrainitiative/kendra_saracen_trial.git
