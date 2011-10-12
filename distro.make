@@ -24,12 +24,12 @@ projects[drupal][type] = core
 ; Profile
 ; -------------
 
-projects[kendra_social_features][type] = module
-projects[kendra_social_features][download][type] = git
-projects[kendra_social_features][download][url] = git://github.com/kendrainitiative/kendra_social.git
-projects[kendra_social_features][download][subtree] = modules
-projects[kendra_social_features][destination] = modules/features
-;projects[kendra_social_features][directory_name] = kendra_social_features
+projects[kendra_social][type] = module
+projects[kendra_social][download][type] = git
+projects[kendra_social][download][url] = git://github.com/kendrainitiative/kendra_social.git
+projects[kendra_social][download][subtree] = modules
+projects[kendra_social][destination] = modules/features
+projects[kendra_social][directory_name] = kendra_social
 
 ; Kendra Social distro makefile
 includes[kendra_social] = https://raw.github.com/kendrainitiative/kendra_social/master/distro.make
