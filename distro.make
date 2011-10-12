@@ -29,7 +29,7 @@ includes[kendra_social] = https://raw.github.com/kendrainitiative/kendra_social/
 
 projects[kendra_social_features][type] = module
 projects[kendra_social_features][download][type] = git
-projects[kendra_social_features][download][url] = ssh://repo/opt/repos/git/kendra/kendra_social.git
+projects[kendra_social_features][download][url] = ssh://repo/opt/repos/git/kendra/kendra_social_features.git
 projects[kendra_social_features][download][branch] = features-extraction
 projects[kendra_social_features][subdir] = features
 
