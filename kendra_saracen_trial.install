@@ -4,6 +4,7 @@
  * implements hook_install()
  */
 function kendra_saracen_trial_install() {
+	/*
 	$kendra_social_profile_path = DRUPAL_ROOT . '/profiles/kendra_social/kendra_social.install';
 	if (is_file($kendra_social_profile_path)) include_once $kendra_social_profile_path;
 
@@ -15,4 +16,5 @@ function kendra_saracen_trial_install() {
 			print '<p>' . _drupal_render_exception_safe($exception) . '</p><hr />';
 		}
 	}
+	*/
 }
