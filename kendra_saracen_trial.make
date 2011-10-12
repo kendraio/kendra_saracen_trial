@@ -12,8 +12,8 @@ api = 2
 core = 7.x
 projects[drupal][type] = core
 
-; Kendra Social distro makefile
-includes[kendra_social] = https://raw.github.com/kendrainitiative/kendra_social/master/distro.make
+; require Kendra Social core makefile
+includes[kendra_social] = https://raw.github.com/kendrainitiative/kendra_social/master/drupal-org.make
 
 ; -------------
 ; Modules
