@@ -3,7 +3,15 @@
 ; drush makefile
 ; www.kendra.org
 ; -------------
-
+; This file describes the core project requirements for Kendra Saracen Trial 7.x. Several
+; patches against Drupal core and their associated issue numbers have been
+; included here for reference.
+;
+; Use this file to build a full distro including Drupal core (with patches) and
+; the Kendra Saracen Trial install profile using the following command:
+;
+;     $ drush make distro.make [directory]
+;
 ; -------------
 ; Core 
 ; -------------
@@ -15,6 +23,9 @@ projects[drupal][type] = core
 ; -------------
 ; Profile
 ; -------------
+
+; Kendra Social distro makefile
+includes[kendra_social] = https://raw.github.com/kendrainitiative/kendra_social/master/distro.make
 
 projects[kendra_saracen_trial][type] = profile
 projects[kendra_saracen_trial][download][type] = git
