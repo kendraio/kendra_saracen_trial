@@ -27,11 +27,13 @@ projects[drupal][type] = core
 ; Kendra Social distro makefile
 includes[kendra_social] = https://raw.github.com/kendrainitiative/kendra_social/master/distro.make
 
-;projects[kendra_social_features][type] = module
-;projects[kendra_social_features][download][type] = git
-;projects[kendra_social_features][download][url] = ssh://repo/opt/repos/git/kendra/kendra_social_features.git
-;projects[kendra_social_features][download][branch] = features-extraction
-;projects[kendra_social_features][subdir] = features
+; install Kendra Social Features to sites/all/modules/features/kendra_social_features/
+; note: including this  block has the side effect of duplicating all contrib modules in sites/all/modules/contrib/
+projects[kendra_social_features][type] = module
+projects[kendra_social_features][download][type] = git
+projects[kendra_social_features][download][url] = git://github.com/kendrainitiative/kendra_social.git
+projects[kendra_social_features][subdir] = features
+projects[kendra_social_features][overwrite] = TRUE
 
 projects[kendra_saracen_trial][type] = profile
 projects[kendra_saracen_trial][download][type] = git
