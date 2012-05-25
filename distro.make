@@ -35,12 +35,6 @@ projects[kendra_social][download][url] = git://github.com/kendrainitiative/kendr
 projects[kendra_social][subdir] = features
 projects[kendra_social][overwrite] = TRUE
 
-projects[kendra_match][type] = module
-projects[kendra_match][download][type] = git
-projects[kendra_match][download][url] = git://github.com/kendrainitiative/kendra_match.git
-projects[kendra_match][subdir] = features
-projects[kendra_match][overwrite] = TRUE
-
 projects[kendra_saracen_trial][type] = profile
 projects[kendra_saracen_trial][download][type] = git
 projects[kendra_saracen_trial][download][url] = git://github.com/kendrainitiative/kendra_saracen_trial.git
