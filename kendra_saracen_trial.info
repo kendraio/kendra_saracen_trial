@@ -58,7 +58,6 @@ dependencies[] = oauth_common_providerui
 dependencies[] = openid
 dependencies[] = openidadmin
 dependencies[] = pathauto
-dependencies[] = profile2
 dependencies[] = rdf
 dependencies[] = rest_server
 dependencies[] = rules
