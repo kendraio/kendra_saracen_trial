@@ -17,6 +17,7 @@ dependencies[] = taxonomy
 ; Features
 ; -------------
 dependencies[] = kendra_saracen_trial_mod
+dependencies[] = kendra_social_boxes
 dependencies[] = kendra_social_albums
 ;dependencies[] = kendra_social_config
 ;dependencies[] = kendra_social_import
