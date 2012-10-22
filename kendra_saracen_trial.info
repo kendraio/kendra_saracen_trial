@@ -27,6 +27,7 @@ dependencies[] = kendra_social_services
 dependencies[] = kendra_social_test
 dependencies[] = kendra_api_services
 dependencies[] = kendra_match_recommender
+dependencies[] = kendra_saracen_components
 ; -------------
 ; Contrib
 ; -------------
