@@ -36,6 +36,7 @@ dependencies[] = comment
 dependencies[] = ctools
 dependencies[] = devel
 dependencies[] = entity
+dependencies[] = twitter
 dependencies[] = fb
 dependencies[] = fb_app
 dependencies[] = fb_connect
